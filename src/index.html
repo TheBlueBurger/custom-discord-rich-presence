@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Custom Discord Rich Presence</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    Client ID: <input type="number" id="client_id" name="yes">
+    <br/>
+    First row: <input type="text" id="first_row_text">
+    <br/>
+    Second row: <input type="text" id="second_row_text">
+    <br/>
+    Show time elapsed: <input type="checkbox" id="show_time_elapsed">
+    <br/>
+    <button onclick="start_prefence();">Start prefence!</button>
+    <button onclick="stop_prefence();">Stop prefence!</button>
+    <h2 id="status">STATUS: Disconnected</h2>
+  </body>
+</html>
